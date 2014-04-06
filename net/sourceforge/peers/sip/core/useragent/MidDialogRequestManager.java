@@ -114,24 +114,28 @@ public class MidDialogRequestManager extends RequestManager
         SipURI destinationUri = RequestManager.getDestinationUri(sipRequest,
                 logger);
 
-       
-     
-        SipURI sipUri = userAgent.getConfig().getOutboundProxy();
-        if (sipUri == null) {
-            sipUri = destinationUri;
-        }
-        InetAddress inetAddress;
-        try {
-            inetAddress = InetAddress.getByName(sipUri.getHost());
-        } catch (UnknownHostException e) {
-            logger.error("unknown host: " + sipUri.getHost(), e);
-            return null;
-        }
+      
+        InetAddress inetAddress = inetAddress(destinationUri);
         ClientTransaction clientTransaction = transactionManager
             .createClientTransaction(sipRequest, inetAddress, port, transport,
                     branchId, clientTransactionUser);
         return clientTransaction;
     }
+    
+    private InetAddress inetAddress(SipURI destinationUri) {
+		SipURI sipUri = userAgent.getConfig().getOutboundProxy();
+		if (sipUri == null) {
+			sipUri = destinationUri;
+		}
+		InetAddress inetAddress;
+		try {
+			inetAddress = InetAddress.getByName(sipUri.getHost());
+		} catch (UnknownHostException e) {
+			logger.error("unknown host: " + sipUri.getHost(), e);
+			return null;
+		}
+		return inetAddress;
+	}
     
     private String transport(SipRequest sipRequest) {
 		SipURI destinationUri = RequestManager.getDestinationUri(sipRequest,
