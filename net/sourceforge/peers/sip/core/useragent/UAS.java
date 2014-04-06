@@ -38,7 +38,8 @@ import net.sourceforge.peers.sip.transport.TransportManager;
 
 public class UAS implements SipServerTransportUser {
 
-    public final static ArrayList<String> SUPPORTED_METHODS;
+    private UASProduct uASProduct = new UASProduct();
+	public final static ArrayList<String> SUPPORTED_METHODS;
     
     static {
         SUPPORTED_METHODS = new ArrayList<String>();
@@ -49,7 +50,6 @@ public class UAS implements SipServerTransportUser {
         SUPPORTED_METHODS.add(RFC3261.METHOD_BYE);
     };
     
-    private InitialRequestManager initialRequestManager;
     private MidDialogRequestManager midDialogRequestManager;
     
     private DialogManager dialogManager;
@@ -63,7 +63,7 @@ public class UAS implements SipServerTransportUser {
             DialogManager dialogManager,
             TransactionManager transactionManager,
             TransportManager transportManager) throws SocketException {
-        this.initialRequestManager = initialRequestManager;
+        uASProduct.setInitialRequestManager(initialRequestManager);
         this.midDialogRequestManager = midDialogRequestManager;
         this.dialogManager = dialogManager;
         transportManager.setSipServerTransportUser(this);
@@ -108,22 +108,21 @@ public class UAS implements SipServerTransportUser {
             }
         } else {
             
-            initialRequestManager.manageInitialRequest(sipRequest);
+            uASProduct.getInitialRequestManager().manageInitialRequest(sipRequest);
             
         }
     }
 
     public void acceptCall(SipRequest sipRequest, Dialog dialog) {
-        initialRequestManager.getInviteHandler().acceptCall(sipRequest,
-                dialog);
+        uASProduct.acceptCall(sipRequest, dialog);
     }
 
     public void rejectCall(SipRequest sipRequest) {
-        initialRequestManager.getInviteHandler().rejectCall(sipRequest);
+        uASProduct.rejectCall(sipRequest);
     }
 
     public InitialRequestManager getInitialRequestManager() {
-        return initialRequestManager;
+        return uASProduct.getInitialRequestManager();
     }
 
     public MidDialogRequestManager getMidDialogRequestManager() {

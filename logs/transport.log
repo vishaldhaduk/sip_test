@@ -1,174 +1,282 @@
-2014-02-20 17:52:38,991 SENT to 86.64.162.35/5060 [Thread-1]
+2014-04-05 22:04:12,899 SENT to 86.64.162.35/5060 [Thread-1]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK1vcvfg9DV
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=Vyu1IUMo
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 1 REGISTER
 Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
 
 
-2014-02-20 17:52:39,559 RECEIVED from 86.64.162.35/5060 [Thread-6]
-
-SIP/2.0 606 Not Acceptable
-Via: SIP/2.0/UDP 192.168.2.14:6060;rport=6060;branch=z9hG4bK1vcvfg9DV;received=70.53.202.165
-To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.dbba
-From: <sip:15990@ekiga.net>;tag=Vyu1IUMo
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 1 REGISTER
-Server: Kamailio (1.5.3-notls (i386/linux))
-Content-Length: 0
-
-
-2014-02-20 17:52:39,561 SENT to 86.64.162.35/5060 [Thread-6]
+2014-04-05 22:04:13,400 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKqnLBNcMXI
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 2 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
-
-
-2014-02-20 17:52:39,614 SENT to 86.64.162.35/5060 [Transaction timer]
-
-REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK1vcvfg9DV
-Max-Forwards: 70
-To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=Vyu1IUMo
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 1 REGISTER
 Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
 
 
-2014-02-20 17:52:40,062 SENT to 86.64.162.35/5060 [Transaction timer]
+2014-04-05 22:04:14,401 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKqnLBNcMXI
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 2 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
 
 
-2014-02-20 17:52:41,063 SENT to 86.64.162.35/5060 [Transaction timer]
+2014-04-05 22:04:16,402 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKqnLBNcMXI
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 2 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
 
 
-2014-02-20 17:52:43,094 SENT to 86.64.162.35/5060 [Transaction timer]
+2014-04-05 22:04:20,402 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKqnLBNcMXI
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 2 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
 
 
-2014-02-20 17:52:44,717 RECEIVED from 86.64.162.35/5060 [Thread-6]
-
-SIP/2.0 401 Unauthorized
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport=6060;branch=z9hG4bKqnLBNcMXI
-To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.8067
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 2 REGISTER
-WWW-Authenticate: Digest realm="ekiga.net", nonce="5306875500002ddd3b9a69b859ac612813d87f1cfbe4cb2a"
-Server: Kamailio (1.5.3-notls (i386/linux))
-Content-Length: 0
-
-
-2014-02-20 17:52:44,745 SENT to 86.64.162.35/5060 [Thread-6]
+2014-04-05 22:04:24,404 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKnyjPMwxUi
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
-CSeq: 3 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
-Authorization: Digest username="15990", realm="ekiga.net", nonce="5306875500002ddd3b9a69b859ac612813d87f1cfbe4cb2a", uri="sip:ekiga.net", response="c1579d24d7db12edb79dcfd02ae427b7"
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
 
 
-2014-02-20 17:52:44,746 RECEIVED from 86.64.162.35/5060 [Thread-6]
+2014-04-05 22:04:28,404 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
+
+
+2014-04-05 22:04:32,406 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
+
+
+2014-04-05 22:04:36,407 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
+
+
+2014-04-05 22:04:40,408 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport;branch=z9hG4bK6mrZFM78W
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 1 REGISTER
+Contact: <sip:15990@192.168.2.14:6060;transport=UDP>
+
+
+2014-04-05 22:04:41,298 RECEIVED from 86.64.162.35/5060 [Thread-6]
 
 SIP/2.0 606 Not Acceptable
-Via: SIP/2.0/UDP 192.168.2.14:6060;rport=6060;branch=z9hG4bK1vcvfg9DV;received=70.53.202.165
-To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.dbba
-From: <sip:15990@ekiga.net>;tag=Vyu1IUMo
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+Via: SIP/2.0/UDP 192.168.2.14:6060;rport=6060;branch=z9hG4bK6mrZFM78W;received=70.52.20.149
+To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.95b4
+From: <sip:15990@ekiga.net>;tag=gSaik6Rp
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 1 REGISTER
 Server: Kamailio (1.5.3-notls (i386/linux))
 Content-Length: 0
 
 
-2014-02-20 17:52:44,750 RECEIVED from 86.64.162.35/5060 [Thread-6]
+2014-04-05 22:04:41,300 SENT to 86.64.162.35/5060 [Thread-6]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKA0yMxtseH
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 2 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+
+
+2014-04-05 22:04:41,801 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKA0yMxtseH
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 2 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+
+
+2014-04-05 22:04:42,801 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKA0yMxtseH
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 2 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+
+
+2014-04-05 22:04:44,802 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKA0yMxtseH
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 2 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+
+
+2014-04-05 22:04:46,334 RECEIVED from 86.64.162.35/5060 [Thread-6]
 
 SIP/2.0 401 Unauthorized
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport=6060;branch=z9hG4bKqnLBNcMXI
-To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.8067
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport=6060;branch=z9hG4bKA0yMxtseH
+To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.7336
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 2 REGISTER
-WWW-Authenticate: Digest realm="ekiga.net", nonce="5306875500002de6ae86219c2b2a73840bb2b0ce3428eaf6"
+WWW-Authenticate: Digest realm="ekiga.net", nonce="5340b6570000244c84131d6c5fab15b4f7e01193e84411c2"
 Server: Kamailio (1.5.3-notls (i386/linux))
 Content-Length: 0
 
 
-2014-02-20 17:52:45,260 SENT to 86.64.162.35/5060 [Transaction timer]
+2014-04-05 22:04:46,376 SENT to 86.64.162.35/5060 [Thread-6]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKnyjPMwxUi
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKieWs8kTxb
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 3 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
-Authorization: Digest username="15990", realm="ekiga.net", nonce="5306875500002ddd3b9a69b859ac612813d87f1cfbe4cb2a", uri="sip:ekiga.net", response="c1579d24d7db12edb79dcfd02ae427b7"
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+Authorization: Digest username="15990", realm="ekiga.net", nonce="5340b6570000244c84131d6c5fab15b4f7e01193e84411c2", uri="sip:ekiga.net", response="391e6d61a76bd7070ae5e57376dbbbf2"
 
 
-2014-02-20 17:52:46,261 SENT to 86.64.162.35/5060 [Transaction timer]
+2014-04-05 22:04:46,876 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKnyjPMwxUi
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKieWs8kTxb
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 3 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
-Authorization: Digest username="15990", realm="ekiga.net", nonce="5306875500002ddd3b9a69b859ac612813d87f1cfbe4cb2a", uri="sip:ekiga.net", response="c1579d24d7db12edb79dcfd02ae427b7"
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+Authorization: Digest username="15990", realm="ekiga.net", nonce="5340b6570000244c84131d6c5fab15b4f7e01193e84411c2", uri="sip:ekiga.net", response="391e6d61a76bd7070ae5e57376dbbbf2"
 
 
-2014-02-20 17:52:48,263 SENT to 86.64.162.35/5060 [Transaction timer]
+2014-04-05 22:04:47,877 SENT to 86.64.162.35/5060 [Transaction timer]
 
 REGISTER sip:ekiga.net SIP/2.0
-Via: SIP/2.0/UDP 70.53.202.165:6060;rport;branch=z9hG4bKnyjPMwxUi
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKieWs8kTxb
 Max-Forwards: 70
 To: <sip:15990@ekiga.net>
-From: <sip:15990@ekiga.net>;tag=2W08pIAw
-Call-ID: 1IK1xkxT-1392947546932@192.168.2.14
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
 CSeq: 3 REGISTER
-Contact: <sip:15990@70.53.202.165:6060;transport=UDP>
-Authorization: Digest username="15990", realm="ekiga.net", nonce="5306875500002ddd3b9a69b859ac612813d87f1cfbe4cb2a", uri="sip:ekiga.net", response="c1579d24d7db12edb79dcfd02ae427b7"
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+Authorization: Digest username="15990", realm="ekiga.net", nonce="5340b6570000244c84131d6c5fab15b4f7e01193e84411c2", uri="sip:ekiga.net", response="391e6d61a76bd7070ae5e57376dbbbf2"
+
+
+2014-04-05 22:04:49,877 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKieWs8kTxb
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 3 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>
+Authorization: Digest username="15990", realm="ekiga.net", nonce="5340b6570000244c84131d6c5fab15b4f7e01193e84411c2", uri="sip:ekiga.net", response="391e6d61a76bd7070ae5e57376dbbbf2"
+
+
+2014-04-05 22:04:51,370 RECEIVED from 86.64.162.35/5060 [Thread-6]
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport=6060;branch=z9hG4bKieWs8kTxb
+To: <sip:15990@ekiga.net>;tag=c64e1f832a41ec1c1f4e5673ac5b80f6.90dc
+From: <sip:15990@ekiga.net>;tag=KENZwPka
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 3 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>;expires=1200
+Server: Kamailio (1.5.3-notls (i386/linux))
+Content-Length: 0
+
+
+2014-04-05 22:04:53,830 SENT to 86.64.162.35/5060 [AWT-EventQueue-0]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKg5TCYM4uH
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=w1tAgWz6
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 4 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>;expires=0
+
+
+2014-04-05 22:04:54,332 SENT to 86.64.162.35/5060 [Transaction timer]
+
+REGISTER sip:ekiga.net SIP/2.0
+Via: SIP/2.0/UDP 70.52.20.149:6060;rport;branch=z9hG4bKg5TCYM4uH
+Max-Forwards: 70
+To: <sip:15990@ekiga.net>
+From: <sip:15990@ekiga.net>;tag=w1tAgWz6
+Call-ID: oGZyCh1o-1396749840858@192.168.2.14
+CSeq: 4 REGISTER
+Contact: <sip:15990@70.52.20.149:6060;transport=UDP>;expires=0
 
 
