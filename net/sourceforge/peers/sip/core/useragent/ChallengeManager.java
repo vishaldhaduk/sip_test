@@ -139,14 +139,12 @@ public class ChallengeManager implements MessageInterceptor {
         requestUri = sipRequest.getRequestUri().toString();
         digest = getRequestDigest(method);
 
-        // FIXME message should be copied "as is" not created anew from scratch
+        Dialog dialog = dialog(responseHeaders);
+		// FIXME message should be copied "as is" not created anew from scratch
         // and this technique is not clean
         String callId = responseHeaders.get(
                 new SipHeaderFieldName(RFC3261.HDR_CALLID)).getValue();
-        Dialog dialog = dialogManager.getDialog(callId);
         if (dialog != null) {
-        	midDialogRequestManager.generateMidDialogRequest(
-                    dialog, RFC3261.METHOD_BYE, this);
         } else {
         	initialRequestManager(requestHeaders, method, callId);
         }
@@ -164,6 +162,18 @@ public class ChallengeManager implements MessageInterceptor {
 		} catch (SipUriSyntaxException e) {
 			logger.error("syntax error", e);
 		}
+	}
+    
+    private Dialog dialog(SipHeaders responseHeaders) {
+		String callId = responseHeaders.get(
+				new SipHeaderFieldName(RFC3261.HDR_CALLID)).getValue();
+		Dialog dialog = dialogManager.getDialog(callId);
+		if (dialog != null) {
+			midDialogRequestManager.generateMidDialogRequest(dialog,
+					RFC3261.METHOD_BYE, this);
+		} else {
+		}
+		return dialog;
 	}
     
     private String getRequestDigest(String method) {
